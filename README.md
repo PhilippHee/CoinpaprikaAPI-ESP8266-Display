@@ -24,7 +24,8 @@ The following hardware components and parts are used in this project:
     - 2x 3.5mm length (for the display)
     - 2x 5mm length (for the circuit board)
 
-Assembled, the "Crypto Ticker" looks like this
+Assembled, the "Crypto Ticker" looks like this:
+
 ![crypto_ticker](https://user-images.githubusercontent.com/81238678/115126510-cd84a100-9fcf-11eb-881d-0415081a4e98.jpg)
 
 
