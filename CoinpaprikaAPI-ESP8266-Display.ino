@@ -46,6 +46,16 @@ a (small) display via the function printCoinOnDisplay().
 In the upper part of the source code you have to store your WiFi connection
 data and enter the coins that should be retrieved.
 
+The following board and display are used:
+Board: https://amzn.to/2QwETcy
+Display: https://amzn.to/3e8u20L
+
+Connections between board and display:
+    5V <-> VDD
+   GND <-> GND
+Pin D1 <-> SCK
+Pin D2 <-> SDA
+
 This project is based on the sample project/sketch "HTTPSRequest" by Ivan
 Grokhotkov from the ESP8266WiFi library and on the repository/library
 "arduino-coinmarketcap-api" by Brian Lough
