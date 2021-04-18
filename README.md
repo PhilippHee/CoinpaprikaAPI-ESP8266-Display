@@ -18,7 +18,7 @@ The following hardware components and parts are used in this project:
 - Male and Female Headers ([Link](https://amzn.to/3tsMK9A))
 - Insulated Copper Wire ([Link](https://amzn.to/3sqMl6v))
 - Matrix Circuit Board ([Link](https://www.reichelt.de/lochrasterplatine-hartpapier-50x100mm-h25pr050-p8268.html))
-- (3D Printed) Casing (Link will be added later)
+- (3D Printed) Casing ([Link](https://www.thingiverse.com/thing:4831865))
 - M3 Cylinder Head Screws ([Link](https://www.reichelt.de/zylinderkopfschrauben-schlitz-m3-8-mm-szk-m3x8-200-p65693.html))
     - 4x 8mm length (for the casing cover)
     - 2x 3.5mm length (for the display)
