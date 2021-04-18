@@ -19,10 +19,10 @@ The following hardware components and parts are used in this project:
 - Insulated Copper Wire ([Link](https://amzn.to/3sqMl6v))
 - Matrix Circuit Board ([Link](https://www.reichelt.de/lochrasterplatine-hartpapier-50x100mm-h25pr050-p8268.html))
 - (3D Printed) Casing (Link will be added later)
-- M3 Cylinder Head Screws ([Link](https://www.reichelt.de/zylinderkopfschrauben-schlitz-m3-10-mm-szk-m3x10-200-p65694.html))
-    - 4x 10mm length (for the casing cover)
+- M3 Cylinder Head Screws ([Link](https://www.reichelt.de/zylinderkopfschrauben-schlitz-m3-8-mm-szk-m3x8-200-p65693.html))
+    - 4x 8mm length (for the casing cover)
     - 2x 3.5mm length (for the display)
-    - 2x 5mm length (for the circuit board)
+    - 2x 4mm length (for the circuit board)
 
 Assembled, the "Crypto Ticker" looks like this:
 
