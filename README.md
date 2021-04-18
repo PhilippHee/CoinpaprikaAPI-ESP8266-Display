@@ -2,7 +2,7 @@
 
 **Use the ESP8266 to get information from the Coinpaprika API and print it on an external display**
 
-With this project/sketch, the API of Coinpaprika (`https://api.coinpaprika.com`) can be used and current information of the different coins/cryptocurrencies (e.g. Bitcoin, Ethereum) can be retrieved and printed on an external display.
+With this project/sketch, the [API of Coinpaprika](https://api.coinpaprika.com) (`https://api.coinpaprika.com`) can be used and current information of the different coins/cryptocurrencies (e.g. Bitcoin, Ethereum) can be retrieved and printed on an external display.
 
 This project is based on the sample project/sketch "HTTPSRequest" by Ivan Grokhotkov from the ESP8266WiFi library and on the repository/library "arduino-coinmarketcap-api" by Brian Lough ([GIT](https://github.com/witnessmenow/arduino-coinmarketcap-api)).
 
