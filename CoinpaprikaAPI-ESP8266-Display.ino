@@ -99,7 +99,7 @@ const String coins[] = {"btc-bitcoin",
 // *****************************************************************
 
 
-// API of Coinpaprika
+// API of Coinpaprika ("Single IP address can send less than 10 requests per second")
 const String host = "api.coinpaprika.com";
 const int httpsPort = 443;
 
