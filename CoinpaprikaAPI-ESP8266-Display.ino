@@ -62,7 +62,7 @@ Grokhotkov from the ESP8266WiFi library and on the repository/library
 (https://github.com/witnessmenow/arduino-coinmarketcap-api).
 
 Date:
-2021-04-17
+2021-10-02
 */
 
 
@@ -99,14 +99,14 @@ const String coins[] = {"btc-bitcoin",
 // *****************************************************************
 
 
-// API of Coinpaprika ("Single IP address can send less than 10 requests per second")
+// API of Coinpaprika
 const String host = "api.coinpaprika.com";
 const int httpsPort = 443;
 
 // Use a web browser to view and copy SHA1 fingerprint of the certificate
 // The fingerprint could change several times a year!
 // Or use client.setInsecure() (see below)
-const char fingerprint[] PROGMEM = "76c035e4e77e0eab61cfe9cd5a3e3f689bc89fcb";
+const char fingerprint[] PROGMEM = "21e34dff083641691f1026ade59269f278fc1c01";
 
 unsigned long timeNextCoinUpdate = 0;
 unsigned long timeNextCoinPrint = 0;
@@ -199,17 +199,24 @@ void getTickerInfo() {
     bool currentLineIsBlank = true;
     bool avail = false;
     unsigned long now = millis();
+    bool stringBegin = false;
   
     while (millis() - now < 1500) {
       while (client.available()) {
         char c = client.read();
   
-        if(!finishedHeaders) {
+        if (!finishedHeaders) {
           if (currentLineIsBlank && c == '\n') {
             finishedHeaders = true;
           }
         } else {
-          body = body + c;
+          // The String begins with '{'
+          if (c == '{') {
+            stringBegin = true;
+          }
+          if (stringBegin) {
+            body = body + c;
+          }
         }
   
         if (c == '\n') {
