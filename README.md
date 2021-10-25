@@ -28,6 +28,9 @@ Assembled, the "Crypto Ticker" looks like this:
 
 ![crypto_ticker](https://user-images.githubusercontent.com/81238678/115126510-cd84a100-9fcf-11eb-881d-0415081a4e98.jpg)
 
+**Attention! Electricity is dangerous!
+Reconstruction and use at your own risk!
+All data without guarantee!**
 
 ## Preparation of the Arduino IDE
 Before the project/source code can be used, a few preparations have to be made. This includes the configuration of the Arduino IDE and the installation of required libraries.
