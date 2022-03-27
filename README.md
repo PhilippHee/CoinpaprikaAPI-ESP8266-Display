@@ -105,7 +105,7 @@ The function `printCoinOnDisplay()` is used to display the values on the externa
 
 For more information, see the comments in the code.
 
-# Additional Version 
+### Additional Version 
 The source code ([**CoinpaprikaAPI-ESP8266-Display2.ino**](CoinpaprikaAPI-ESP8266-Display2.ino)) is new. In this code you can set the preferred currency, e.g. EUR (see line 108). This code is still under development, but it already works.
 
 ## Further project
