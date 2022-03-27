@@ -64,7 +64,7 @@ Grokhotkov from the ESP8266WiFi library and on the repository/library
 Notes: 
 1st version: The code is still under development, but it already works.
 Difference from "CoinpaprikaAPI-ESP8266-Display":
-Currency setting (see line 108)
+Currency setting (see line 106)
 
 Date:
 2022-03-27
